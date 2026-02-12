@@ -17,6 +17,14 @@
   LETTERFORMS
   ************ */
 
+        :root {
+            --para-typeface: "Georgia, serif";
+            --para-font-size: 1.1rem;
+            --para-leading: 1.58em;
+            --para-tracking: 0.008em;
+            --para-column-width: 57%;
+        }
+
 
 
         #letterforms #lowercase-letter {
@@ -33,22 +41,29 @@
   ************ */
 
         #theparagraph {
-            width: 70%;
-            max-width: 65ch;
-            margin: 0 auto;
+            max-width: var(--para-column-width);
+            padding-right: 32px;
+            padding-left: 0;
+            margin-left: 0;
+            margin-right: 0;
         }
 
         #theparagraph p {
-            font-family: Georgia, serif;
-            font-size: 1.1rem;
-            line-height: 1.6;
-            letter-spacing: 0.01em;
-            text-align: left;
+            font-family: var(--para-typeface);
+            font-size: var(--para-font-size);
             font-weight: 400;
-        }
-        
-       #theparagraph p+p {
-            text-indent: 1em;
+            font-style: normal;
+            line-height: var(--para-leading);
+            letter-spacing: var(--para-tracking);
+            word-spacing: 0.352px;
+            text-align: left;
+            text-indent: 0px;
+            margin-top: 0;
+            margin-bottom: 0;
+            hyphens: auto;
+            overflow-wrap: normal;
+            word-break: normal;
+            white-space: normal;
         }
         
         /* ************
