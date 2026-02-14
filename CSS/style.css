@@ -1,26 +1,10 @@
 @charset "UTF-8";
 
-
-@font-face {
-    font-family: "Futura";
-    src: url("font/FuturaStd-Book.WOFF") format("woff");
-}
-
-@font-face {
-    font-family: "Futura";
-    src: url("font/FuturaStd-Bold.WOFF") format("woff");
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: "Futura";
-    src: url("font/FuturaStd-Oblique.WOFF") format("woff");
-    font-style: italic, oblique;
-}
+/* Fonts loaded via Google Fonts link in HTML */
 
 div {
     color: #333;
-    font-family: "Futura", sans-serif;
+    font-family: "Work Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
     font-size: 15px;
     letter-spacing: .5px;
 }
@@ -83,7 +67,7 @@ nav .wrapper #projectName {
 }
 
 nav .wrapper #projectName h1 {
-    font-family: "Futura", sans-serif;
+    font-family: "Work Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 2.75rem;
@@ -91,7 +75,7 @@ nav .wrapper #projectName h1 {
 }
 
 nav .wrapper #projectName h2 {
-    font-family: "Futura", sans-serif;
+    font-family: "Work Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
     font-style: italic;
     font-size: 15px;
     padding-left: 4px;
@@ -106,7 +90,7 @@ nav .nav-item {
 }
 
 nav .nav-item a {
-    font-family: "Futura", sans-serif;
+    font-family: "Work Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
     font-size: 14px;
     padding: 0 2px;
     color: #333;
